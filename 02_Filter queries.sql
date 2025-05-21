@@ -29,7 +29,10 @@ values(003,'macbook pro',1499.5,to_date('22-07-2022','dd-mm-yyyy'));
 insert into products (product_code,product_name,price,released_date)
 values(004,'Ipad pro max',899.5,to_date('27-01-2023','dd-mm-yyyy'));
 
--- FILTER QUERIES -> use 'where' and add condition such as price > 1000 
+-- FILTER QUERIES 
+
+--> only for viewing (doesnot make permenent changes to the acual data of the table)
+--> use 'where' and add condition such as price > 1000 
 
 -- to get the data from products where price is greater than 1000
 
@@ -65,9 +68,9 @@ where extract(year from released_date) = '2022'
 select product_name as xyproduct from products 
 where price > 1000
 
--- AGGRIGATION FUNCTION
+-- Aggrigation function (count , sum , avg)
 
--- COUNT FUNCTION
+-- Count function
 
 -- to display total number of records or rows entered we can use count(*) function 
 
@@ -78,13 +81,15 @@ select count(*) from products -- 3 , got count of total rows entered
 select count(*) from products -- 1 , got count from products with price >1000
 where price > 1000
 
--- SUM FUNCTION -> sum(column name of which you want total sum)
+-- Sum Func 
+--> sum(column name of which you want total sum)
 
 -- we can also find the sum of values in a float or int column using 'sum() function'
 
 select sum(price) from products -- 3998 , got total price
 
---AVG FUNCTION -> avg(column name of which you want average)
+--Avg function 
+--> avg(column name of which you want average)
 
 -- similarly , we can also find average using avg function
 
