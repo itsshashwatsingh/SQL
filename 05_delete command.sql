@@ -1,10 +1,10 @@
--- REMOVE DATA -> use delete command or truncate
+-- REMOVE DATA -> use delete command or truncate command
 
--- to delete all the entries of table we use this
+-- to delete all the entries of table we use 
 
 delete from products -- can also use filter queries with delete command
 
-truncate from products -- filter queries does not work with truncate
+truncate table products -- filter queries does not work with truncate
 
 -- if you want to delete a row of the table lets suppose 'Iphone 15 pro' row 
 --use filter queries with delete command
