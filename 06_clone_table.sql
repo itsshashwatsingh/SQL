@@ -1,6 +1,6 @@
 select * from products
 
--- Clone table
+-- CLONE TABLE
 
 --we can clone a table and its data exact copy using alias 'as' command
 

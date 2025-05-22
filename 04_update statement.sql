@@ -1,3 +1,5 @@
+
+-- UPDATE STATEMENTS
 -- MODIFY DATA ->  using 'update' and 'set' command
 
 

@@ -1,5 +1,5 @@
 
-
+--WHERE STATEMENTS
 -- FILTER QUERIES 
 
 --> only for viewing (does not make permenent changes to the actual data of the table)
@@ -66,4 +66,6 @@ select sum(price) from products -- 3998 , got total price
 select avg(price) from products -- 999.5, got average of price
 
 
-drop table products 
+drop table products -- to completly delete a table from database
+
+drop table if exists products -- this will not show error if table doesnot exist

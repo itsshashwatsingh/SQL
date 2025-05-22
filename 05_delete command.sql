@@ -1,3 +1,5 @@
+--DELETE STATEMENTS
+
 -- REMOVE DATA -> use delete command or truncate command
 
 -- to delete all the entries of table we use 
