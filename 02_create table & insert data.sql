@@ -27,7 +27,9 @@ values(003,'macbook pro',1499.5,to_date('22-07-2022','dd-mm-yyyy'));
 insert into products (product_code,product_name,price,released_date)
 values(004,'Ipad pro max',899.5,to_date('27-01-2023','dd-mm-yyyy'));
 
-
--- viewing table 
+-- SELECT CLAUSE
+-- used to only view data 
+-- filter applied on select clause doesnot make permanent changes in table
+-- just for viewing table 
 
 select * from products;

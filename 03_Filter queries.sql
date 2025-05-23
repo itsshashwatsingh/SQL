@@ -2,7 +2,7 @@
 --WHERE STATEMENTS
 -- FILTER QUERIES 
 
---> only for viewing (does not make permenent changes to the actual data of the table)
+--> to add filter in our queries (used with select,alter,update,delete)
 --> use 'where' and add condition such as price > 1000 
 
 -- to get the data from products where price is greater than 1000
