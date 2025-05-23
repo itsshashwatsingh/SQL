@@ -32,4 +32,4 @@ where country = 'Russia'  -- this will remove Russia row from inner join table a
 
 -- this concludes that
 -- inner join joins the table on the basis of mathcing records if there is no matching records 
--- inner join will show no records (shows only intersecting value)
+-- inner join will show no records (shows only intersecting values)

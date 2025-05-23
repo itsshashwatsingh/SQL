@@ -38,7 +38,7 @@ where extract(year from released_date) = '2022'
 select product_name as xyproduct from products 
 where price > 1000
 
--- Aggrigation function (count , sum , avg)
+-- Aggrigation function (count , sum , avg , min, max)
 
 -- Count function
 
@@ -65,6 +65,9 @@ select sum(price) from products -- 3998 , got total price
 
 select avg(price) from products -- 999.5, got average of price
 
+select min(price) from products -- got the minimum price from price column
+
+select max(price) from products -- got the maximum price from price column
 
 drop table products -- to completly delete a table from database
 
