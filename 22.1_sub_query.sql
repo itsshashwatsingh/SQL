@@ -16,9 +16,8 @@ from sales_order
 group by status --> getting one different lowercase 'complete' seperate from 'Complete'
 
 
---> to solve this question we can use two methods 1st using sub queries
---  2nd using lower case
 
+-- to resolve the 'Complete' and 'complete' confusion of the database we will use
 
 -- 1st method --> using sub query
 
@@ -55,3 +54,27 @@ case when status = 'completed'
 from sales_order)
 group by updated_status
 order by status_count desc
+
+
+-- Q13. Identify the customers who have not purchased any product yet.
+
+-- using sub query
+
+-- we can use subqueries in many places(from clause,where clause,having clause,select clause, etc.)
+
+
+-- inner query
+select distinct customer_id
+from sales_order
+
+-- outer query
+select *
+from customers
+where id is not in ()
+
+
+-- lets join the above inner and outer query
+select *
+from customers
+where id not in (select distinct customer_id
+from sales_order)

@@ -7,6 +7,10 @@ SELECT * FROM sales_order;
    -- the case in delivery status. Status with highest no of orders should be at the
    -- top.
 
+
+--> to solve this question we can use two methods 1st using sub queries
+--  2nd using lower case
+
 -- 2nd method --> using lower case
 select lower(status) as status , count(*) as status_count
 from sales_order
