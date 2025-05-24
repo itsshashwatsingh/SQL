@@ -17,4 +17,4 @@ group by e.name,c.name
 order by 1,2
 
 -- here new order by functionality is used it basically orders the records such that similar 
--- value are seen together 
+-- value can be seen together 
