@@ -6,10 +6,27 @@ SELECT * FROM sales_order;
 
 -- Q13. Identify the customers who have not purchased any product yet.
 
--- we can solve this problem using multiple methods
+-- using sub query
+
+-- we can use subqueries in many places(from clause,where clause,having clause,select clause, etc.)
 
 
---1. using sub query
+-- inner query
+select distinct customer_id
+from sales_order
+
+-- outer query
+select *
+from customers
+where id is not in ()
+
+
+-- lets join the above inner and outer query
+select *
+from customers
+where id not in (select distinct customer_id
+from sales_order)
+
 
 --2. using left join
 
