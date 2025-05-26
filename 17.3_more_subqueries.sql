@@ -22,8 +22,13 @@ from employee)
 
 
 
--- scalar subquery -- returns one row and one column ex. in Q1 we used a subquery which has 
+--1) scalar subquery --> returns one row and one column ex. in Q1 we used a subquery which has 
 -- only one value (or one row and one column)
+
+--2) multiple row and column subquery 
+
+
+--3) corelated subquery
 
 -- we can use subquery in different places like where, from ,join ,having ,select etc
 
@@ -40,7 +45,7 @@ on e.salary  > avg_sal.average_salary --(here we used non-equi join condition
 
 
 
--- multiple row subquery -->
+-- multiple row & column subquery -->
 --subquery which returns multiple columns and multiple row
 --subquery which returns one column and multiple rows
 
@@ -132,7 +137,7 @@ where dept_name = 'HR'
 
 -- Insight 3 — How to apply this to every row dynamically:
 
--- where clause checks the filter condition row wise so if written   
+-- where clause can apply the filter condition on multiple row(or a whole column) so if written   
 where e2.dept_name = e1.dept_name 
 -- it checks if dept_name in e1 is there in dept_name in e2 
 -- (which is always true since both dept_name in e1 and dept_name in e2 are same here) 
@@ -219,7 +224,7 @@ select *,
 				end ) as remarks
 from employee
 
--- not recommended (as alternative always use the subquery in join)
+-- not recommended (as better alternative always use the subquery in join)
 
 
 select *,
@@ -294,6 +299,8 @@ where e.dept_name in (select dept_name
 					  where location ='Banglore')
 and e.emp_id in (select emp_id from employee_history)	
 
+
+-- subquery in delete                                                                                                                                                   
 
 -- QUESTION: Delete all departments who do not have any employees. 
 
