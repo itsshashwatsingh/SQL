@@ -22,14 +22,14 @@ This repository is a collection of structured SQL scripts and query sets aimed a
 
 ## 📁 Folder Structure
 
-SQL/
-│
-├── Basics/              -- Core concepts and syntax
-├── Joins/               -- Join operations with examples
-├── Aggregations/        -- Grouping and summary functions
-├── Subqueries/          -- Nested query examples
-├── Practice Sets/       -- Solved question sets
-└── Projects/            -- End-to-end SQL mini projects (Coming soon!)
+
+- SQL/
+  - Basics/ – Core concepts and syntax
+  - Joins/ – Join operations with examples
+  - Aggregations/ – Grouping and summary functions
+  - Subqueries/ – Nested query examples
+  - Practice Sets/ – Solved question sets
+  - Projects/ – End-to-end SQL mini projects (Coming soon!)
 
 
 ## 🚀 Getting Started
