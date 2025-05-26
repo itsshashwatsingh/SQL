@@ -24,12 +24,13 @@ This repository is a collection of structured SQL scripts and query sets aimed a
 
 SQL/
 │
-├── Basics/ -- Core SQL syntax and foundational queries
-├── Joins/ -- Various types of SQL joins with examples
-├── Aggregations/ -- Grouping, summarizing, and aggregate functions
-├── Subqueries/ -- Nested and correlated subqueries
-├── Practice Sets/ -- Practice questions and challenges
-└── Projects/ -- Mini SQL-based projects (Coming soon!)
+├── Basics/              -- Core concepts and syntax
+├── Joins/               -- Join operations with examples
+├── Aggregations/        -- Grouping and summary functions
+├── Subqueries/          -- Nested query examples
+├── Practice Sets/       -- Solved question sets
+└── Projects/            -- End-to-end SQL mini projects (Coming soon!)
+
 
 ## 🚀 Getting Started
 
