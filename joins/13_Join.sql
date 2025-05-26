@@ -72,4 +72,25 @@ right join asian_countries ac on ec.country = ac.country;
 -- should have been null
 
 
+-- FULL OUTER JOIN / FULL JOIN
+
+-- All countries from both tables. NULL for missing matches.
+
+SELECT * 
+FROM european_countries ec
+FULL OUTER JOIN asian_countries ac ON ec.country = ac.country;
+
+-- CROSS JOIN
+
+--  All combinations of rows (Cartesian product).
+
+-- 5 European × 4 Asian = 20 rows
+
+
+SELECT * 
+FROM european_countries ec
+CROSS JOIN asian_countries ac;
+
+
+
 
