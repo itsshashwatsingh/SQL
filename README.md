@@ -30,6 +30,7 @@ This repository is a collection of structured SQL scripts and query sets aimed a
   - Subqueries/ – Nested query examples
   - Practice Sets/ – Solved question sets
   - Projects/ – End-to-end SQL mini projects (Coming soon!)
+  -  Resources/ - Data sets and structure
 
 
 ## 🚀 Getting Started
