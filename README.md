@@ -32,17 +32,16 @@ This repository is a collection of structured SQL scripts and query sets aimed a
   - Projects/ – End-to-end SQL mini projects (Coming soon!)
   -  Resources/ - Data sets and structure
 
-
 ## 🚀 Getting Started
 
-You can execute these `.sql` files using any SQL-compatible database system such as:
+To start practicing:
 
-- MySQL
-- PostgreSQL
-- SQLite
-- SQL Server
+1. Clone this repository  
+2. Use a SQL engine like MySQL, PostgreSQL, SQLite, or any online SQL editor  
+3. Execute `.sql` files from each folder  
+4. Try modifying queries and writing your own!
 
-Recommended platforms for practice:
+**Recommended Tools:**
 
 - [MySQL Workbench](https://www.mysql.com/products/workbench/)
 - [pgAdmin](https://www.pgadmin.org/)
@@ -53,19 +52,19 @@ Recommended platforms for practice:
 
 ## 🎯 Goals
 
-- Strengthen SQL fundamentals
-- Prepare for tech interviews
-- Practice with real-world inspired problems
-- Build a strong data foundation for backend, analytics, or data science roles
+- Build a strong foundation in SQL  
+- Master concepts like joins, aggregations, subqueries, and window functions  
+- Get hands-on with practice sets to solidify your learning  
+- Prepare for SQL interviews and data assessments  
+- ✅ **By completing all the topics in this repository, you'll be well-prepared to solve easy to medium-level SQL problems on platforms like [LeetCode](https://leetcode.com/problemset/database/), [StrataScratch](https://www.stratascratch.com/), and [DataLemur](https://datalemur.com/)**
 
 ---
 
 ## 📌 Notes
 
-- This is a **learning-focused** personal project.
-- Contributions, feedback, or suggestions are always welcome.
-- Open an issue or submit a pull request to collaborate!
-
+- This is a learning-focused project aimed at self-improvement and helping others  
+- Contributions and feedback are welcome  
+- Feel free to open issues or submit pull requests  
 
 ---
 
