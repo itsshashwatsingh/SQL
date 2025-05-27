@@ -28,6 +28,7 @@ This repository is a collection of structured SQL scripts and query sets aimed a
   - Joins/ – Join operations with examples
   - Aggregations/ – Grouping and summary functions
   - Subqueries/ – Nested query examples
+  - CTE/- With clause explained with examples
   - Practice Sets/ – Solved question sets
   - Projects/ – End-to-end SQL mini projects (Coming soon!)
   -  Resources/ - Data sets and structure
